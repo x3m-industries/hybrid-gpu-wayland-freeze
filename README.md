@@ -222,7 +222,7 @@ cat /proc/driver/nvidia/params | grep -E "EnableS0ixPowerManagement|PreserveVide
 We are actively seeking feedback, additional forensic logs, and test results from different laptop vendors:
 
 1. **Test Your System**: Run the 30-second reproduction command above and let us know if your system freezes or recovers cleanly.
-2. **Share Hardware Reports in [GitHub Discussions]**: Include your output from:
+2. **Share Hardware Reports in [GitHub Discussions](https://github.com/x3m-industries/hybrid-gpu-wayland-freeze/discussions)**: Include your output from:
    ```bash
    inxi -Gz
    cat /sys/power/mem_sleep
